@@ -20,3 +20,46 @@ $color-2: white;
 
 // Your SCSS goes below here
 
+.fixed-banner-top {
+    height:87px;
+    width:100%;
+    background-color:red;
+    position:fixed;
+}
+
+.home-dock {
+    width:100%;
+    height:800px;
+    background-color:blue;
+}
+
+.sub-header {
+    height:343px;
+    width:100%;
+    background-color:green;
+}
+
+.row1 {
+    height:609.78px;
+    width:100%;
+    background-color:blue;
+}
+
+.row2 {
+    height:652.78px;
+    width:100%;
+    background-color:green;
+}
+
+.communication {
+    width:100%;
+    height:311px;
+    background-color: #b3d4fc;
+}
+
+.footer {
+    position:absolute;
+    width:100%;
+    height:84px;
+    padding: 30 32;
+}

@@ -33,7 +33,22 @@ $color-2: white;
     background-color:purple;
     width:166px;
     height:34px;
+    z-index:1;
+    position:absolute;
+}
 
+.banner-navi {
+    display:block;
+    float:left;
+}
+
+header div ul li {
+    position:absolute;
+    z-index:1;
+    height:60px;
+    width:60px;
+    color:blue;
+    
 }
 
 .home-dock {

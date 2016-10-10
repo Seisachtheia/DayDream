@@ -38,16 +38,15 @@ $color-2: white;
     float:left;
 }
 
-/*.banner-navi {
-    display:inline-block;
-    float:left;
-}*/
+.banner-navi {
+    height:87px;
+}
 
 .banner-navi-button {
     display:inline-block;
     height:87px;
     background-color:cyan;
-    padding:32px 20px;
+    padding:32px 20px 0px 32px;
     
 }
 

@@ -30,12 +30,15 @@ $color-2: white;
 
 .banner-logo {
     margin: 24px 40px 0px 32px;
-    padding: 6px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
     background-color:purple;
     width:166px;
     height:34px;
     z-index:1;
     float:left;
+    text-align:center;
+    vertical-align:middle;
+    color:white;
 }
 
 .banner-navi {
@@ -45,11 +48,13 @@ $color-2: white;
 .banner-navi-button {
     display:inline-block;
     height:55px;
-    background-color:cyan;
+    background-color:darkblue;
     padding:32px 20px 0px 20px;
     text-transform: uppercase;
     text-align:center;
     font-weight:500;
+    font-size:14px;
+    color:white;
     
 }
 

@@ -23,7 +23,7 @@ $color-2: white;
 .fixed-banner-top {
     height:87px;
     width:100%;
-    background-color:trasnparent;
+    background-color:transparent;
     position:fixed;
     z-index:-1;
 
@@ -32,7 +32,7 @@ $color-2: white;
 .banner-logo {
     margin: 24px 40px 0px 32px;
     padding: 12px 0px 0px 0px;
-    background-color:purple;
+    background-color:transparent;
     width:166px;
     height:34px;
     z-index:1;
@@ -40,13 +40,13 @@ $color-2: white;
     text-align:center;
     vertical-align:middle;
     color:white;
+    
 }
 
 .banner-navi {
     height:87px;
     margin: 0px;
     padding: 0px;
-    float: clear;
     position:fixed;
 }
 
@@ -69,7 +69,31 @@ $color-2: white;
     width:100%;
     height:800px;
     background-image:url('../images/bg.jpg');
-    float:clear;
+    background-position: bottom;
+    background-size:cover;
+    clear:both;
+
+    & h1{
+        text-align:center;
+        vertical-align: middle;
+        position:relative;
+        color:white;
+        left:30px;
+        top:50%;
+        transform:translateY(-50%);
+        font-weight:300;
+    }
+    & h2{
+        text-align:center;
+        vertical-align: middle;
+        position:relative;
+        color:white;
+        left:30px;
+        top:50%;
+        transform:translateY(-50%);
+    }
+   
+    
     
 }
 

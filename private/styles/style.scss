@@ -30,6 +30,13 @@ $color-2: white;
 }
 
 .banner-logo {
+    img src="('../images/DDclear.png')";
+    float:left;
+    height:auto;
+    width:auto;
+}
+
+.banner-text {
     margin: 24px 40px 0px 32px;
     padding: 12px 0px 0px 0px;
     background-color:transparent;
@@ -100,7 +107,15 @@ $color-2: white;
 .sub-header {
     height:343px;
     width:100%;
-    background-color:green;
+    background-color:white;
+
+    p {
+        margin-left:auto;
+        margin-right:auto;
+        font-size:22px;
+        font-weight:300px;
+        line-height:1.4em;
+    }
 }
 
 .row1 {

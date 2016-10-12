@@ -23,9 +23,10 @@ $color-2: white;
 .fixed-banner-top {
     height:87px;
     width:100%;
-    background-color:red;
+    background-color:trasnparent;
     position:fixed;
     z-index:-1;
+
 }
 
 .banner-logo {
@@ -43,25 +44,32 @@ $color-2: white;
 
 .banner-navi {
     height:87px;
+    margin: 0px;
+    padding: 0px;
+    float: clear;
+    position:fixed;
 }
 
 .banner-navi-button {
     display:inline-block;
+    float:left;
     height:55px;
-    background-color:darkblue;
+    background-color:transparent;
     padding:32px 20px 0px 20px;
     text-transform: uppercase;
     text-align:center;
     font-weight:500;
     font-size:14px;
     color:white;
+    margin:0px;
     
 }
 
 .home-dock {
     width:100%;
     height:800px;
-    background-color:blue;
+    background-image:url('../images/bg.jpg');
+    float:clear;
     
 }
 

@@ -30,13 +30,15 @@ $color-2: white;
 }
 
 .banner-logo {
-    img src="('../images/DDclear.png')";
+    
     float:left;
-    height:auto;
-    width:auto;
+    
 }
 
 .banner-text {
+    background-image: url('../images/DDclear.png');
+    background-size:contain;
+    background-position:center;
     margin: 24px 40px 0px 32px;
     padding: 12px 0px 0px 0px;
     background-color:transparent;
@@ -55,6 +57,7 @@ $color-2: white;
     margin: 0px;
     padding: 0px;
     position:fixed;
+    
 }
 
 .banner-navi-button {
@@ -78,8 +81,7 @@ $color-2: white;
     background-image:url('../images/bg.jpg');
     background-position: bottom;
     background-size:cover;
-    clear:both;
-
+    
     & h1{
         text-align:center;
         vertical-align: middle;
@@ -108,13 +110,22 @@ $color-2: white;
     height:343px;
     width:100%;
     background-color:white;
+    vertical-align: middle;
+    text-align:center;
 
-    p {
+
+.sub-header-text {
+
+}
+
+    & p {
         margin-left:auto;
         margin-right:auto;
         font-size:22px;
         font-weight:300px;
         line-height:1.4em;
+        text-align:center;
+        
     }
 }
 

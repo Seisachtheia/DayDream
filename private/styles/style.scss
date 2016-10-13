@@ -29,10 +29,7 @@ $color-2: white;
 
 }
 
-.banner-logo {
-    
-    float:left;
-    
+
 }
 
 .banner-text {
@@ -49,6 +46,7 @@ $color-2: white;
     text-align:center;
     vertical-align:middle;
     color:white;
+    background-repeat: no-repeat;
     
 }
 
@@ -101,9 +99,7 @@ $color-2: white;
         top:50%;
         transform:translateY(-50%);
     }
-   
-    
-    
+           
 }
 
 .sub-header {
@@ -115,18 +111,18 @@ $color-2: white;
 
 
 .sub-header-text {
-
+    margin-left:auto;
+    margin-right:auto;
+    font-size:22px;
+    font-weight:300px;
+    line-height:1.4em;
+    //text-align:center;
+    top: 80%;
+    transform: translateY(-80%);
+}
 }
 
-    & p {
-        margin-left:auto;
-        margin-right:auto;
-        font-size:22px;
-        font-weight:300px;
-        line-height:1.4em;
-        text-align:center;
-        
-    }
+  
 }
 
 .row1 {

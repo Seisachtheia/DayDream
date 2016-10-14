@@ -29,9 +29,6 @@ $color-2: white;
 
 }
 
-
-}
-
 .banner-text {
     background-image: url('../images/DDclear.png');
     background-size:contain;
@@ -80,7 +77,7 @@ $color-2: white;
     background-position: bottom;
     background-size:cover;
     
-    & h1{
+    & h1 {
         text-align:center;
         vertical-align: middle;
         position:relative;
@@ -90,7 +87,7 @@ $color-2: white;
         transform:translateY(-50%);
         font-weight:300;
     }
-    & h2{
+    & h2 {
         text-align:center;
         vertical-align: middle;
         position:relative;
@@ -108,7 +105,7 @@ $color-2: white;
     background-color:white;
     vertical-align: middle;
     text-align:center;
-
+}
 
 .sub-header-text {
     margin-left:auto;
@@ -120,10 +117,7 @@ $color-2: white;
     top: 80%;
     transform: translateY(-80%);
 }
-}
 
-  
-}
 
 .row1 {
     height:609.78px;

@@ -11,6 +11,12 @@ $tablet-width: 600px;
 $color-1: #3498db;
 $color-2: white;
 
+$font-family-1: "Roboto", "Helvetica", arial, sans-serif;
+$font-family-2: "Raleway", "Helvetica", arial, sans-serif;
+
+$ff1: $font-family-1;
+$ff2: $font-family-2;
+
 // Core Import
 @import "typography";
 
@@ -26,7 +32,6 @@ $color-2: white;
     background-color:transparent;
     position:fixed;
     z-index:-1;
-
 }
 
 .banner-text {
@@ -44,7 +49,7 @@ $color-2: white;
     vertical-align:middle;
     color:white;
     background-repeat: no-repeat;
-    
+    font-family: $ff1;    
 }
 
 .banner-navi {
@@ -67,7 +72,7 @@ $color-2: white;
     font-size:14px;
     color:white;
     margin:0px;
-    
+    font-family:$ff1;
 }
 
 .home-dock {
@@ -89,6 +94,7 @@ $color-2: white;
         font-size:58px;
         line-height: 1.5em;
         margin-bottom: 0.1em;
+        font-family: $ff1;
     }
     & h2 {
         text-align:center;
@@ -102,34 +108,52 @@ $color-2: white;
         line-height:1.25em;
         margin-bottom:.1em;
         font-weight:300;
+        font-family: $ff1;
     }
            
 }
 
 .sub-header {
     //height:343px;
-    width:100%;
     background-color:white;
     vertical-align: middle;
     text-align:center;
-    padding: 120px 0px;
+    padding: 120px 60px;
 }
 
 .sub-header-text {
-    margin-left:auto;
-    margin-right:auto;
-    font-size:22px;
+    font-size:26px;
     font-weight:300;
     line-height:1.4em;
-    text-align:center;
+    //text-align:center;
+    color:rgba(0, 0, 0, 0.54);
+    font-family: $ff1;
+
+    & p {
+        text-align: center;
+        font-weight: 250;
+    }
     
 }
 
+.gradient-divider {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    width:120px;
+    margin: 30px auto 0;
+    background-image: linear-gradient(to right, #1de9b6, #2979ff);
+}
 
 .row1 {
     height:609.78px;
     width:100%;
-    background-color:blue;
+    position:relative;
+
+    & .left-float {
+        position:absolute;
+        margin-left:84.414px;
+        padding: 54.500px 20px 154.500px 0px;
+    }
 }
 
 .row2 {

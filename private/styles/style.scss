@@ -107,22 +107,22 @@ $color-2: white;
 }
 
 .sub-header {
-    height:343px;
+    //height:343px;
     width:100%;
     background-color:white;
     vertical-align: middle;
     text-align:center;
+    padding: 120px 0px;
 }
 
 .sub-header-text {
     margin-left:auto;
     margin-right:auto;
     font-size:22px;
-    font-weight:300px;
+    font-weight:300;
     line-height:1.4em;
-    //text-align:center;
-    top: 80%;
-    transform: translateY(-80%);
+    text-align:center;
+    
 }
 
 

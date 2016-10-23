@@ -145,18 +145,54 @@ $ff2: $font-family-2;
 }
 
 .row1 {
-    height:609.78px;
-    width:100%;
+    //height:609.78px;
+    //width:100%;
     position:relative;
 
     & .left-float {
-        position:absolute;
+        //position:;
         margin-left:84.414px;
         padding: 54.500px 20px 154.500px 0px;
+
+    }
+
+        & .text-gradient {
+            
+        }
+
+        & p {
+            margin-bottom:10;
+            font-size:20px;
+            color: rgba(0, 0, 0, 0.54);
+            font-weight: 300;
+            line-height: 1.6em;
+            font-family:$ff1;
+            display:block;
+            margin-right:45%;            
+        }
+
+    .right-float {
+        position:absolute;
+        width:45%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            right:0;
+            bottom:0;
+            height:100%;
+        }
+        
+
+            .headset {
+                position:absolute;
+            }
     }
 }
 
 .row2 {
+    
     height:652.78px;
     width:100%;
     background-color:green;
